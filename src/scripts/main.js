@@ -17,5 +17,5 @@ const avarage = total / number.length;
 const formattedTotal = total.toLocaleString();
 const formattedAvarage = Math.round(avarage).toLocaleString();
 
-document.querySelector('.total-populatin').textContent = formattedTotal;
-document.querySelector('.total-population').textContent = formattedAvarage;
+document.querySelector('.total-population').textContent = formattedTotal;
+document.querySelector('.average-population').textContent = formattedAvarage;
